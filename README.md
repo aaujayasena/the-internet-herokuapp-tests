@@ -27,10 +27,15 @@ Headless mode will :
 
 # Project structure
 cypress/
+
 ├── e2e/               # Test specifications
+
 ├── constant/          # Constants (selectors, URLs)
+
 ├── page-objects/      # Page Object Model classes
+
 ├── fixtures/          # Test data
+
 └── support/           # Custom commands
 
 cypress.config.js      # Cypress configuration
