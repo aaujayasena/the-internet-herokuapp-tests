@@ -7,17 +7,15 @@ This repository contain the internet.herokuapp test cases
  - npm
 
 Check installed version
-node -v
-npm -v
+
+- node -v
+- npm -v
 
 2. Install project dependancies
 npm install
 npm install cypress --save-dev     
 
-3. Install the mochasome for report generate
-npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
-
-4. Execute Test headless mode
+3. Execute Test headless mode
 npm run test:report
 
 Headless mode will :
@@ -39,6 +37,7 @@ cypress/
 └── support/           # Custom commands
 
 cypress.config.js      # Cypress configuration
+
 package.json           # Scripts & dependencies
 
 
