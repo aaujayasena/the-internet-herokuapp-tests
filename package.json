@@ -1,0 +1,22 @@
+{
+  "name": "sample-project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "cypress run",
+    "merge": "mochawesome-merge cypress/reports/*.json > cypress/reports/mochawesome.json",
+    "report": "marge cypress/reports/mochawesome.json --reportDir cypress/reports",
+    "test:report": "npm run test && npm run merge && npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.7.0",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.0",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}
