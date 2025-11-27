@@ -12,6 +12,7 @@ Check installed version
 - npm -v
 
 2. Install project dependancies
+
 npm install
 
 npm install cypress --save-dev     
