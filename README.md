@@ -18,8 +18,8 @@ npm install
 
 3. Execute Test 
 
-headless mode->    npm run test:report
-Browser interaction-> npx cypress open
+- Headless mode->    npm run test:report
+- Browser interaction-> npx cypress open
 
 Headless mode will :
 - Execute all test via terminal
