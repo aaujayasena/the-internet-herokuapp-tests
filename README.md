@@ -13,6 +13,7 @@ Check installed version
 
 2. Install project dependancies
 npm install
+
 npm install cypress --save-dev     
 
 3. Execute Test headless mode
