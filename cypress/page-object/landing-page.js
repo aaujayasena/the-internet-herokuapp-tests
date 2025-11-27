@@ -7,7 +7,8 @@
 const header1 = 'h1',
 header2 = 'h2',
 linkABtesting = 'a[href="/abtest"]',
-linkBasicAuth = 'a[href="/basic_auth"]';
+linkBasicAuth = 'a[href="/basic_auth"]',
+linkAddAndRemove = 'a[href="/add_remove_elements/"]';
 
 /**
  * Landing Page Object Model
@@ -46,4 +47,12 @@ export class LandingPage {
     getlinkbasicauth() {
      return cy.get(linkBasicAuth);
     }
-}
+
+    /**
+     * This menthod returns the linkAddAndRemove element.
+     * @returns linkAddAndRemove
+     */
+    getlinkaddandremove() {
+     return cy.get(linkAddAndRemove);
+    }
+} 
