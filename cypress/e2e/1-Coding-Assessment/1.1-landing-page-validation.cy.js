@@ -11,8 +11,10 @@ describe('Coding Assigmnet', () => {
     
     //Creating object of LandingPage and ABTestingPage classes
      const landingPage = new LandingPage();
-     //Creating object of ABTestingPage class
-     const abtestingPage = new ABTestingPage();
+    //Creating object of ABTestingPage class
+    const abtestingPage = new ABTestingPage();
+    //Creating object of AddAndRemovePage class
+    const addAndRemovePage = new AddAndRemovePage();
 
 
     beforeEach(() => {
@@ -39,7 +41,6 @@ describe('Coding Assigmnet', () => {
        
         //Clicking on Add and Remove Elements link
         landingPage.getlinkaddandremove().should('be.visible').click({force:true}); 
-        const addAndRemovePage = new AddAndRemovePage();
         //Validating Add and Remove Page Header
         addAndRemovePage.getheader1().should('be.visible').and('have.text',PageContent.ADD_AND_REMOVE_PAGE_HEADER); 
         // Delete button should not be visible initially
