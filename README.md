@@ -3,6 +3,7 @@ This repository contain the internet.herokuapp test cases
 
 # Installation
 1. Make sure you have installed followings
+
  - Node.js
  - npm
 
@@ -16,6 +17,7 @@ Check installed version
 npm install
 
 3. Execute Test headless mode
+
 npm run test:report
 
 Headless mode will :
@@ -24,6 +26,7 @@ Headless mode will :
 - Generate mocha report. Check cypress/reports
 
 # Project structure
+
 cypress/
 
 ├── e2e/               # Test specifications
