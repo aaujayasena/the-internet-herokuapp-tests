@@ -16,9 +16,10 @@ Check installed version
 
 npm install
 
-3. Execute Test headless mode
+3. Execute Test 
 
-npm run test:report
+headless mode->    npm run test:report
+Browser interaction-> npx cypress open
 
 Headless mode will :
 - Execute all test via terminal
